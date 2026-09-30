@@ -1,0 +1,411 @@
+{
+  "$description": "Okynus design tokens v1.0 (September 2026). Guidelines: https://okynus.com/brand/",
+  "color": {
+    "cyan": {
+      "50": {
+        "$type": "color",
+        "$value": "#E6FAFF"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#C2F3FF"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#8AE9FF"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#4DDEFF"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#1AD6FF"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#00D2FF"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#00A9D1"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#007C9C"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#06667F"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#0B4F63"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#05313E"
+      },
+      "$description": "Key Cyan. Primary. CTAs, links, focus rings, highlights, data you want seen first."
+    },
+    "green": {
+      "50": {
+        "$type": "color",
+        "$value": "#F4FBEC"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#E6F5D3"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#CDEBA9"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#B7E28B"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#A5D76E"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#86BF4A"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#689D33"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#4F7A26"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#405F24"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#365021"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#1B2C0D"
+      },
+      "$description": "Lock Green. Secondary. Protected, validated, resolved, success states."
+    },
+    "coral": {
+      "50": {
+        "$type": "color",
+        "$value": "#FFF1F1"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#FFE0E0"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#FFC6C6"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#FF9E9E"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#FF6464"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#F83B3B"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#E51D1D"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#C11414"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#A01414"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#841818"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#480707"
+      },
+      "$description": "Data Coral. Accent. Exposure, risk, critical findings, sparing emphasis."
+    },
+    "ink": {
+      "0": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "#F9FAFB"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#F3F4F6"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#E5E7EB"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#D1D5DB"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#9CA3AF"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#6B7280"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#4B5563"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#374151"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#1F2937"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#111827"
+      },
+      "950": {
+        "$type": "color",
+        "$value": "#0A0A0F"
+      },
+      "$description": "Neutral text and UI greys."
+    },
+    "canvas": {
+      "$description": "Dark surfaces. DEFAULT is Void, the page background.",
+      "DEFAULT": {
+        "$type": "color",
+        "$value": "#0A0A0F"
+      },
+      "deep": {
+        "$type": "color",
+        "$value": "#06070B"
+      },
+      "raised": {
+        "$type": "color",
+        "$value": "#0E1017"
+      },
+      "overlay": {
+        "$type": "color",
+        "$value": "#141621"
+      }
+    },
+    "status": {
+      "$description": "Severity/state colors for product UI only. Never branding.",
+      "critical": {
+        "$type": "color",
+        "$value": "#EF4444"
+      },
+      "high": {
+        "$type": "color",
+        "$value": "#F97316"
+      },
+      "medium": {
+        "$type": "color",
+        "$value": "#F59E0B"
+      },
+      "low": {
+        "$type": "color",
+        "$value": "#3B82F6"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "#94A3B8"
+      },
+      "success": {
+        "$type": "color",
+        "$value": "#22C55E"
+      }
+    }
+  },
+  "gradient": {
+    "primary": {
+      "$type": "gradient",
+      "$value": [
+        {
+          "color": "{color.cyan.500}",
+          "position": 0
+        },
+        {
+          "color": "{color.cyan.300}",
+          "position": 1
+        }
+      ]
+    },
+    "signal": {
+      "$type": "gradient",
+      "$value": [
+        {
+          "color": "{color.cyan.500}",
+          "position": 0
+        },
+        {
+          "color": "{color.green.400}",
+          "position": 0.5
+        },
+        {
+          "color": "{color.coral.400}",
+          "position": 1
+        }
+      ]
+    }
+  },
+  "font": {
+    "sans": {
+      "$type": "fontFamily",
+      "$value": [
+        "Geist Variable",
+        "Geist",
+        "ui-sans-serif",
+        "system-ui",
+        "sans-serif"
+      ]
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$value": [
+        "Geist Mono Variable",
+        "Geist Mono",
+        "ui-monospace",
+        "SFMono-Regular",
+        "Menlo",
+        "monospace"
+      ]
+    }
+  },
+  "typography": {
+    "display": {
+      "$type": "typography",
+      "$description": "Hero headline, one per page",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "72px",
+        "fontWeight": 600,
+        "lineHeight": 1.05,
+        "letterSpacing": "-0.04em"
+      }
+    },
+    "h1": {
+      "$type": "typography",
+      "$description": "Section titles",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "56px",
+        "fontWeight": 600,
+        "lineHeight": 1.08,
+        "letterSpacing": "-0.035em"
+      }
+    },
+    "h2": {
+      "$type": "typography",
+      "$description": "Sub-sections, product names",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "40px",
+        "fontWeight": 600,
+        "lineHeight": 1.12,
+        "letterSpacing": "-0.03em"
+      }
+    },
+    "h3": {
+      "$type": "typography",
+      "$description": "Card titles",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "28px",
+        "fontWeight": 600,
+        "lineHeight": 1.2,
+        "letterSpacing": "-0.02em"
+      }
+    },
+    "h4": {
+      "$type": "typography",
+      "$description": "Small headings, list titles",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "20px",
+        "fontWeight": 600,
+        "lineHeight": 1.3,
+        "letterSpacing": "-0.01em"
+      }
+    },
+    "body-lg": {
+      "$type": "typography",
+      "$description": "Lead paragraphs",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.6,
+        "letterSpacing": "0em"
+      }
+    },
+    "body": {
+      "$type": "typography",
+      "$description": "Default copy",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": 1.6,
+        "letterSpacing": "0em"
+      }
+    },
+    "small": {
+      "$type": "typography",
+      "$description": "Captions, helper text",
+      "$value": {
+        "fontFamily": "{font.sans}",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.5,
+        "letterSpacing": "0em"
+      }
+    },
+    "label": {
+      "$type": "typography",
+      "$description": "Eyebrows, tags, nav",
+      "$value": {
+        "fontFamily": "{font.mono}",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": 1.4,
+        "letterSpacing": "0.12em",
+        "textTransform": "uppercase"
+      }
+    },
+    "code": {
+      "$type": "typography",
+      "$description": "Code, CVE IDs, endpoints, metrics",
+      "$value": {
+        "fontFamily": "{font.mono}",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.6,
+        "letterSpacing": "0em"
+      }
+    }
+  }
+}

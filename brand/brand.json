@@ -1,0 +1,959 @@
+{
+  "name": "Okynus brand guidelines",
+  "version": "1.0",
+  "updated": "September 2026",
+  "url": "https://okynus.com/brand/",
+  "generatedFrom": "src/brand/tokens.js + src/brand/guidelines.js (npm run brand)",
+  "identity": {
+    "brand": "Okynus",
+    "company": "Okynus Tech",
+    "legal": "Orkynus Tech Private Limited",
+    "cin": "U62099MH2025PTC450157",
+    "domain": "okynus.com",
+    "email": "contact@okynus.com",
+    "tagline": "Security built for enterprises that can't afford to get it wrong.",
+    "url": "https://okynus.com",
+    "positioning": "Okynus is an offensive-security company built on one idea: security spend should buy outcomes. We cut the cost of staying secure and put AI to work only where it delivers a return. The brand should feel the same way: precise, calm, and hard to argue with.",
+    "names": [
+      {
+        "id": "brand",
+        "label": "Brand",
+        "value": "Okynus",
+        "use": "Running copy, product UI, social posts. The default."
+      },
+      {
+        "id": "company",
+        "label": "Company",
+        "value": "Okynus Tech",
+        "use": "Sign-offs, social handles, event listings, the first mention in press."
+      },
+      {
+        "id": "legal",
+        "label": "Legal entity",
+        "value": "Orkynus Tech Private Limited",
+        "use": "Contracts, invoices, footers, anything with a CIN next to it. Note the r in Orkynus."
+      }
+    ],
+    "namingRules": [
+      {
+        "ok": true,
+        "text": "Brand name: \"Okynus\". Capital O, lowercase ynus, one word."
+      },
+      {
+        "ok": true,
+        "text": "The registered company is \"Orkynus Tech Private Limited\", spelled with an r. Use it only where a legal name is required, and never \"correct\" it to Okynus."
+      },
+      {
+        "ok": true,
+        "text": "Contact details are okynus.com and contact@okynus.com, everywhere."
+      },
+      {
+        "ok": false,
+        "text": "Wrong forms of the brand name:",
+        "avoid": [
+          "OKYNUS",
+          "OkyNus",
+          "Okynus tech",
+          "Okynus Technologies",
+          "Orkynus (as the brand)"
+        ]
+      },
+      {
+        "ok": false,
+        "text": "Retired contact details. Replace them wherever you find them:",
+        "avoid": [
+          "okynus.tech",
+          "okynustech@gmail.com"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "anatomy": [
+      {
+        "part": "Ring",
+        "text": "One outer ring broken just after each node, with three shorter inner arcs running into the next node."
+      },
+      {
+        "part": "Nodes",
+        "text": "Three circles at 120°: a lock on Lock Green (top), a key on Key Cyan (right), a data file on Data Coral (left). Positions and colors are fixed."
+      },
+      {
+        "part": "Fingerprint O",
+        "text": "The O of the wordmark is a fingerprint inside a heavy ring. It is the centre of the icon, and on its own, with the ring in the three node colors, it is the app mark."
+      },
+      {
+        "part": "Wordmark",
+        "text": "\"kynus\" is outlined artwork based on Poppins Bold, not live text."
+      }
+    ],
+    "lockups": [
+      {
+        "id": "mark",
+        "name": "Primary mark",
+        "use": "The default. Use it wherever there's room: decks, covers, stickers, event screens, the first slide, the last slide.",
+        "variants": [
+          {
+            "id": "okynus-mark-on-dark",
+            "label": "On dark",
+            "background": "dark",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-on-dark.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-on-dark.png",
+              "widthPx": 2048
+            }
+          },
+          {
+            "id": "okynus-mark-on-light",
+            "label": "On light",
+            "background": "light",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-on-light.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-on-light.png",
+              "widthPx": 2048
+            }
+          },
+          {
+            "id": "okynus-mark-mono-white",
+            "label": "Mono white",
+            "background": "dark",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-mono-white.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-mono-white.png",
+              "widthPx": 2048
+            }
+          },
+          {
+            "id": "okynus-mark-mono-black",
+            "label": "Mono black",
+            "background": "light",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-mono-black.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-mono-black.png",
+              "widthPx": 2048
+            }
+          }
+        ]
+      },
+      {
+        "id": "wordmark",
+        "name": "Wordmark",
+        "use": "For horizontal spaces where the mark would be too small: site headers, document headers, email signatures, partner grids.",
+        "variants": [
+          {
+            "id": "okynus-wordmark-on-dark",
+            "label": "On dark",
+            "background": "dark",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-wordmark-on-dark.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-wordmark-on-dark.png",
+              "widthPx": 2000
+            }
+          },
+          {
+            "id": "okynus-wordmark-on-light",
+            "label": "On light",
+            "background": "light",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-wordmark-on-light.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-wordmark-on-light.png",
+              "widthPx": 2000
+            }
+          },
+          {
+            "id": "okynus-wordmark-cyan",
+            "label": "Key Cyan",
+            "background": "dark",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-wordmark-cyan.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-wordmark-cyan.png",
+              "widthPx": 2000
+            }
+          }
+        ]
+      },
+      {
+        "id": "icon",
+        "name": "Icon",
+        "use": "The primary mark without the word. For small square placements from 32 px up: slide corners, partner grids, merch. Never a replacement for the name on a page.",
+        "variants": [
+          {
+            "id": "okynus-icon-on-dark",
+            "label": "On dark",
+            "background": "dark",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-icon-on-dark.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-icon-on-dark.png",
+              "widthPx": 1024
+            }
+          },
+          {
+            "id": "okynus-icon-on-light",
+            "label": "On light",
+            "background": "light",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-icon-on-light.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-icon-on-light.png",
+              "widthPx": 1024
+            }
+          },
+          {
+            "id": "okynus-icon-mono-white",
+            "label": "Mono white",
+            "background": "dark",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-icon-mono-white.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-icon-mono-white.png",
+              "widthPx": 1024
+            }
+          },
+          {
+            "id": "okynus-icon-mono-black",
+            "label": "Mono black",
+            "background": "light",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-icon-mono-black.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-icon-mono-black.png",
+              "widthPx": 1024
+            }
+          }
+        ]
+      },
+      {
+        "id": "appmark",
+        "name": "App mark",
+        "use": "The fingerprint-O with its ring in the three node colors. For app icons, favicons and profile avatars, with no background tile. Universal (print on a white disc) works on any background.",
+        "variants": [
+          {
+            "id": "okynus-appmark",
+            "label": "Universal",
+            "background": "any",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-appmark.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-appmark.png",
+              "widthPx": 1024
+            }
+          },
+          {
+            "id": "okynus-appmark-on-dark",
+            "label": "On dark",
+            "background": "dark",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-appmark-on-dark.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-appmark-on-dark.png",
+              "widthPx": 1024
+            }
+          },
+          {
+            "id": "okynus-appmark-on-light",
+            "label": "On light",
+            "background": "light",
+            "svg": "https://okynustech.github.io/media/brand/files/logo/okynus-appmark-on-light.svg",
+            "png": {
+              "url": "https://okynustech.github.io/media/brand/files/logo/okynus-appmark-on-light.png",
+              "widthPx": 1024
+            }
+          }
+        ]
+      }
+    ],
+    "variantNote": "\"On dark\" has white linework, \"on light\" has Void linework. Use mono versions for one-color printing, engraving, stamps, or on top of a brand color. PNGs are transparent and 1000 to 2048 px wide; prefer SVG wherever the tool accepts it.",
+    "clearSpace": {
+      "unit": "x = the diameter of one node on the primary mark and icon, the fingerprint O on the wordmark, or the ring thickness on the app mark",
+      "rule": "Keep at least x of empty space on every side. No text, edges, other logos or busy imagery inside it. More is always fine."
+    },
+    "minimumSizes": [
+      {
+        "lockup": "mark",
+        "name": "Primary mark",
+        "screenPx": 96,
+        "printMm": 25,
+        "measure": "width"
+      },
+      {
+        "lockup": "wordmark",
+        "name": "Wordmark",
+        "screenPx": 72,
+        "printMm": 18,
+        "measure": "width"
+      },
+      {
+        "lockup": "icon",
+        "name": "Icon",
+        "screenPx": 32,
+        "printMm": 10,
+        "measure": "width",
+        "note": "Below 32 px, use the app mark instead."
+      },
+      {
+        "lockup": "appmark",
+        "name": "App mark",
+        "screenPx": 16,
+        "printMm": 6,
+        "measure": "width",
+        "note": "At 32 px and below, use the small cut (favicon.svg): three bold ridges."
+      }
+    ],
+    "backgrounds": [
+      {
+        "background": "#0A0A0F",
+        "variant": "okynus-mark-on-dark",
+        "label": "Void. The home background.",
+        "file": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-on-dark.svg"
+      },
+      {
+        "background": "#FFFFFF",
+        "variant": "okynus-mark-on-light",
+        "label": "White and light greys.",
+        "file": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-on-light.svg"
+      },
+      {
+        "background": "#00D2FF",
+        "variant": "okynus-mark-mono-black",
+        "label": "Brand color: mono only.",
+        "file": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-mono-black.svg"
+      },
+      {
+        "background": "#0E1017",
+        "variant": "okynus-mark-on-dark",
+        "label": "Dark panels and cards.",
+        "file": "https://okynustech.github.io/media/brand/files/logo/okynus-mark-on-dark.svg"
+      }
+    ],
+    "backgroundRules": [
+      {
+        "ok": true,
+        "text": "On photography, use mono white over an image darkened to at least 60% black."
+      },
+      {
+        "ok": false,
+        "text": "Never place the full-color mark on Key Cyan, Lock Green or Data Coral; the nodes disappear."
+      }
+    ],
+    "misuse": [
+      {
+        "id": "stretch",
+        "text": "Don't stretch or squash"
+      },
+      {
+        "id": "recolor",
+        "text": "Don't recolor the nodes"
+      },
+      {
+        "id": "rotate",
+        "text": "Don't rotate"
+      },
+      {
+        "id": "effects",
+        "text": "Don't add glows, shadows or outlines"
+      },
+      {
+        "id": "retype",
+        "text": "Don't type the name as a logo"
+      },
+      {
+        "id": "contrast",
+        "text": "Don't use low-contrast versions"
+      }
+    ],
+    "favicon": {
+      "svg": "https://okynus.com/favicon.svg",
+      "png32": "https://okynus.com/favicon-32.png",
+      "appleTouch": "https://okynus.com/apple-touch-icon.png"
+    },
+    "social": [
+      {
+        "label": "App icon",
+        "note": "App mark, transparent background, 1024 px",
+        "png": "https://okynustech.github.io/media/brand/files/social/okynus-app-icon-1024.png",
+        "svg": "https://okynustech.github.io/media/brand/files/social/okynus-app-icon.svg"
+      },
+      {
+        "label": "Profile avatar",
+        "note": "App mark, transparent, 800 px. Platforms crop to a circle",
+        "png": "https://okynustech.github.io/media/brand/files/social/okynus-avatar-800.png"
+      },
+      {
+        "label": "Share card",
+        "note": "Open Graph / link previews, 1200×630",
+        "png": "https://okynustech.github.io/media/brand/files/social/okynus-og-1200x630.png"
+      }
+    ]
+  },
+  "color": {
+    "summary": "Three brand colors, taken straight from the logo's nodes, on a dark Void canvas. Cyan leads; green and coral are used sparingly.",
+    "brand": [
+      {
+        "id": "cyan",
+        "name": "Key Cyan",
+        "role": "Primary. CTAs, links, focus rings, highlights, data you want seen first.",
+        "hex": "#00D2FF",
+        "rgb": [
+          0,
+          210,
+          255
+        ],
+        "cmyk": [
+          100,
+          18,
+          0,
+          0
+        ],
+        "baseStep": 500,
+        "textOnWhite": {
+          "step": 700,
+          "hex": "#007C9C"
+        },
+        "scale": {
+          "50": "#E6FAFF",
+          "100": "#C2F3FF",
+          "200": "#8AE9FF",
+          "300": "#4DDEFF",
+          "400": "#1AD6FF",
+          "500": "#00D2FF",
+          "600": "#00A9D1",
+          "700": "#007C9C",
+          "800": "#06667F",
+          "900": "#0B4F63",
+          "950": "#05313E"
+        }
+      },
+      {
+        "id": "green",
+        "name": "Lock Green",
+        "role": "Secondary. Protected, validated, resolved, success states.",
+        "hex": "#A5D76E",
+        "rgb": [
+          165,
+          215,
+          110
+        ],
+        "cmyk": [
+          23,
+          0,
+          49,
+          16
+        ],
+        "baseStep": 400,
+        "textOnWhite": {
+          "step": 700,
+          "hex": "#4F7A26"
+        },
+        "scale": {
+          "50": "#F4FBEC",
+          "100": "#E6F5D3",
+          "200": "#CDEBA9",
+          "300": "#B7E28B",
+          "400": "#A5D76E",
+          "500": "#86BF4A",
+          "600": "#689D33",
+          "700": "#4F7A26",
+          "800": "#405F24",
+          "900": "#365021",
+          "950": "#1B2C0D"
+        }
+      },
+      {
+        "id": "coral",
+        "name": "Data Coral",
+        "role": "Accent. Exposure, risk, critical findings, sparing emphasis.",
+        "hex": "#FF6464",
+        "rgb": [
+          255,
+          100,
+          100
+        ],
+        "cmyk": [
+          0,
+          61,
+          61,
+          0
+        ],
+        "baseStep": 400,
+        "textOnWhite": {
+          "step": 600,
+          "hex": "#E51D1D"
+        },
+        "scale": {
+          "50": "#FFF1F1",
+          "100": "#FFE0E0",
+          "200": "#FFC6C6",
+          "300": "#FF9E9E",
+          "400": "#FF6464",
+          "500": "#F83B3B",
+          "600": "#E51D1D",
+          "700": "#C11414",
+          "800": "#A01414",
+          "900": "#841818",
+          "950": "#480707"
+        }
+      }
+    ],
+    "surfaces": [
+      {
+        "id": "DEFAULT",
+        "token": "canvas",
+        "name": "Void",
+        "use": "Page background. Also the logo's dark ink.",
+        "hex": "#0A0A0F"
+      },
+      {
+        "id": "deep",
+        "token": "canvas-deep",
+        "name": "Void Deep",
+        "use": "Footers, sunken wells.",
+        "hex": "#06070B"
+      },
+      {
+        "id": "raised",
+        "token": "canvas-raised",
+        "name": "Raised",
+        "use": "Cards, panels, product mockups.",
+        "hex": "#0E1017"
+      },
+      {
+        "id": "overlay",
+        "token": "canvas-overlay",
+        "name": "Overlay",
+        "use": "Popovers, menus, hover fills.",
+        "hex": "#141621"
+      }
+    ],
+    "neutrals": {
+      "0": "#FFFFFF",
+      "50": "#F9FAFB",
+      "100": "#F3F4F6",
+      "200": "#E5E7EB",
+      "300": "#D1D5DB",
+      "400": "#9CA3AF",
+      "500": "#6B7280",
+      "600": "#4B5563",
+      "700": "#374151",
+      "800": "#1F2937",
+      "900": "#111827",
+      "950": "#0A0A0F"
+    },
+    "status": {
+      "critical": "#EF4444",
+      "high": "#F97316",
+      "medium": "#F59E0B",
+      "low": "#3B82F6",
+      "info": "#94A3B8",
+      "success": "#22C55E"
+    },
+    "gradients": [
+      {
+        "id": "primary",
+        "css": "linear-gradient(90deg, #00D2FF, #4DDEFF)",
+        "use": "Buttons, progress bars, key highlights. The everyday gradient."
+      },
+      {
+        "id": "signal",
+        "css": "linear-gradient(90deg, #00D2FF, #A5D76E, #FF6464)",
+        "use": "The full trio, in logo order. Reserved for hero moments; at most once per page."
+      }
+    ],
+    "proportion": [
+      {
+        "id": "canvas",
+        "label": "Void & surfaces",
+        "percent": 70
+      },
+      {
+        "id": "ink",
+        "label": "Neutrals",
+        "percent": 20
+      },
+      {
+        "id": "cyan",
+        "label": "Key Cyan",
+        "percent": 7
+      },
+      {
+        "id": "green",
+        "label": "Lock Green",
+        "percent": 2
+      },
+      {
+        "id": "coral",
+        "label": "Data Coral",
+        "percent": 1
+      }
+    ],
+    "products": [
+      {
+        "name": "OkPentEngine",
+        "color": "cyan",
+        "note": "Core engine. Shares the company primary.",
+        "hex": "#00D2FF"
+      },
+      {
+        "name": "OkNexus",
+        "color": "coral",
+        "note": "Vulnerability management.",
+        "hex": "#FF6464"
+      },
+      {
+        "name": "OkSentinel",
+        "color": "green",
+        "note": "Continuous protection.",
+        "hex": "#A5D76E"
+      },
+      {
+        "name": "OkAiEngineer",
+        "color": "cyan",
+        "note": "AI application-security engineer.",
+        "hex": "#00D2FF"
+      }
+    ],
+    "contrast": [
+      {
+        "fg": "#FFFFFF",
+        "bg": "#0A0A0F",
+        "fgName": "White",
+        "bgName": "Void",
+        "ratio": 19.75,
+        "wcag": "AAA",
+        "bodyTextOk": true
+      },
+      {
+        "fg": "#9CA3AF",
+        "bg": "#0A0A0F",
+        "fgName": "Ink 400",
+        "bgName": "Void",
+        "ratio": 7.78,
+        "wcag": "AAA",
+        "bodyTextOk": true
+      },
+      {
+        "fg": "#00D2FF",
+        "bg": "#0A0A0F",
+        "fgName": "Key Cyan",
+        "bgName": "Void",
+        "ratio": 10.97,
+        "wcag": "AAA",
+        "bodyTextOk": true
+      },
+      {
+        "fg": "#A5D76E",
+        "bg": "#0A0A0F",
+        "fgName": "Lock Green",
+        "bgName": "Void",
+        "ratio": 11.8,
+        "wcag": "AAA",
+        "bodyTextOk": true
+      },
+      {
+        "fg": "#FF6464",
+        "bg": "#0A0A0F",
+        "fgName": "Data Coral",
+        "bgName": "Void",
+        "ratio": 6.83,
+        "wcag": "AA",
+        "bodyTextOk": true
+      },
+      {
+        "fg": "#0A0A0F",
+        "bg": "#00D2FF",
+        "fgName": "Void",
+        "bgName": "Key Cyan",
+        "ratio": 10.97,
+        "wcag": "AAA",
+        "bodyTextOk": true
+      },
+      {
+        "fg": "#007C9C",
+        "bg": "#FFFFFF",
+        "fgName": "Cyan 700",
+        "bgName": "White",
+        "ratio": 4.81,
+        "wcag": "AA",
+        "bodyTextOk": true
+      },
+      {
+        "fg": "#4F7A26",
+        "bg": "#FFFFFF",
+        "fgName": "Green 700",
+        "bgName": "White",
+        "ratio": 5.07,
+        "wcag": "AA",
+        "bodyTextOk": true
+      },
+      {
+        "fg": "#E51D1D",
+        "bg": "#FFFFFF",
+        "fgName": "Coral 600",
+        "bgName": "White",
+        "ratio": 4.64,
+        "wcag": "AA",
+        "bodyTextOk": true
+      },
+      {
+        "fg": "#00D2FF",
+        "bg": "#FFFFFF",
+        "fgName": "Key Cyan",
+        "bgName": "White",
+        "ratio": 1.8,
+        "wcag": "Fail",
+        "bodyTextOk": false
+      }
+    ],
+    "rules": [
+      {
+        "ok": true,
+        "text": "All three brand colors are safe for text and icons on Void."
+      },
+      {
+        "ok": false,
+        "text": "None of the base brand colors are readable as text on white. On light backgrounds use cyan-700, green-700 or coral-600."
+      },
+      {
+        "ok": true,
+        "text": "Text on a cyan button or tile is always Void, never white."
+      },
+      {
+        "ok": false,
+        "text": "Don't use color alone to carry meaning; pair it with a label or icon."
+      }
+    ]
+  },
+  "typography": {
+    "summary": "One family, two cuts. Geist for what people read, Geist Mono for what people verify. Both are free and open source.",
+    "families": [
+      {
+        "id": "sans",
+        "name": "Geist",
+        "role": "Everything people read: headlines, body copy, buttons, UI.",
+        "weights": [
+          400,
+          500,
+          600
+        ],
+        "stack": [
+          "\"Geist Variable\"",
+          "Geist",
+          "ui-sans-serif",
+          "system-ui",
+          "sans-serif"
+        ],
+        "source": "https://vercel.com/font",
+        "license": "SIL Open Font License 1.1"
+      },
+      {
+        "id": "mono",
+        "name": "Geist Mono",
+        "role": "Everything people check: code, CVE IDs, endpoints, metrics, labels.",
+        "weights": [
+          400,
+          500
+        ],
+        "stack": [
+          "\"Geist Mono Variable\"",
+          "\"Geist Mono\"",
+          "ui-monospace",
+          "SFMono-Regular",
+          "Menlo",
+          "monospace"
+        ],
+        "source": "https://vercel.com/font",
+        "license": "SIL Open Font License 1.1"
+      }
+    ],
+    "scale": [
+      {
+        "token": "display",
+        "size": 72,
+        "line": 1.05,
+        "weight": 600,
+        "tracking": -0.04,
+        "use": "Hero headline, one per page"
+      },
+      {
+        "token": "h1",
+        "size": 56,
+        "line": 1.08,
+        "weight": 600,
+        "tracking": -0.035,
+        "use": "Section titles"
+      },
+      {
+        "token": "h2",
+        "size": 40,
+        "line": 1.12,
+        "weight": 600,
+        "tracking": -0.03,
+        "use": "Sub-sections, product names"
+      },
+      {
+        "token": "h3",
+        "size": 28,
+        "line": 1.2,
+        "weight": 600,
+        "tracking": -0.02,
+        "use": "Card titles"
+      },
+      {
+        "token": "h4",
+        "size": 20,
+        "line": 1.3,
+        "weight": 600,
+        "tracking": -0.01,
+        "use": "Small headings, list titles"
+      },
+      {
+        "token": "body-lg",
+        "size": 18,
+        "line": 1.6,
+        "weight": 400,
+        "tracking": 0,
+        "use": "Lead paragraphs"
+      },
+      {
+        "token": "body",
+        "size": 16,
+        "line": 1.6,
+        "weight": 400,
+        "tracking": 0,
+        "use": "Default copy"
+      },
+      {
+        "token": "small",
+        "size": 14,
+        "line": 1.5,
+        "weight": 400,
+        "tracking": 0,
+        "use": "Captions, helper text"
+      },
+      {
+        "token": "label",
+        "size": 12,
+        "line": 1.4,
+        "weight": 500,
+        "tracking": 0.12,
+        "mono": true,
+        "upper": true,
+        "use": "Eyebrows, tags, nav"
+      },
+      {
+        "token": "code",
+        "size": 14,
+        "line": 1.6,
+        "weight": 400,
+        "tracking": 0,
+        "mono": true,
+        "use": "Code, CVE IDs, endpoints, metrics"
+      }
+    ],
+    "rules": [
+      {
+        "ok": true,
+        "text": "Sentence case for every headline and button. Save uppercase for mono labels."
+      },
+      {
+        "ok": true,
+        "text": "Tighten headlines (−0.02 to −0.04 em); leave body copy at 0."
+      },
+      {
+        "ok": true,
+        "text": "Numbers people compare (scores, counts, CVSS) go in Geist Mono so digits line up."
+      },
+      {
+        "ok": true,
+        "text": "Semibold (600) is the heaviest weight. Hierarchy comes from size and color, not from black weights."
+      },
+      {
+        "ok": false,
+        "text": "Don't use Geist Mono for paragraphs or headlines longer than a few words."
+      },
+      {
+        "ok": false,
+        "text": "Don't substitute other fonts. In Google Docs or PowerPoint without Geist, fall back to Inter, then Arial."
+      }
+    ]
+  },
+  "voice": {
+    "summary": "We sound like the most senior person in the room who doesn't need to prove it.",
+    "principles": [
+      {
+        "title": "Precise, not alarmist",
+        "text": "Security marketing runs on fear. We run on evidence. Name the risk, size it, and say what fixes it."
+      },
+      {
+        "title": "Plain-spoken",
+        "text": "Write for the CTO and the engineer at once. Short sentences, real nouns, no buzzword chains."
+      },
+      {
+        "title": "Proof over adjectives",
+        "text": "\"168 raw findings, 4 that matter\" beats \"best-in-class, next-gen, AI-powered\" every time."
+      },
+      {
+        "title": "Calm confidence",
+        "text": "We've seen worse. The tone of an expert who's already on the call: steady, direct, a little dry."
+      }
+    ],
+    "examples": [
+      {
+        "avoid": "Revolutionary next-gen AI-powered cybersecurity platform that eliminates all threats!",
+        "prefer": "OkNexus turns scanner noise into a short, ranked list of what's actually exploitable."
+      },
+      {
+        "avoid": "Hackers are coming for your data. Is your business next?",
+        "prefer": "We test your web, API and cloud the way an attacker would, and show you exactly what they'd reach."
+      },
+      {
+        "avoid": "We leverage synergistic solutions to empower your security posture.",
+        "prefer": "We find it, prove it, help you fix it, then retest to confirm it's closed."
+      }
+    ]
+  },
+  "products": {
+    "pattern": "\"Ok\" + one PascalCase word, no space",
+    "products": [
+      {
+        "name": "OkNexus",
+        "description": "Vulnerability management"
+      },
+      {
+        "name": "OkSentinel",
+        "description": "Continuous protection"
+      },
+      {
+        "name": "OkAiEngineer",
+        "description": "AI application-security engineer"
+      },
+      {
+        "name": "OkPentEngine",
+        "description": "Security-testing engine"
+      }
+    ],
+    "rules": [
+      {
+        "ok": true,
+        "text": "On first mention, pair a product with what it does: \"OkNexus, our vulnerability-management platform\"."
+      },
+      {
+        "ok": true,
+        "text": "Product names are plain text in the running font. Never color, split or stylize the \"Ok\"."
+      },
+      {
+        "ok": false,
+        "text": "Wrong forms:",
+        "avoid": [
+          "Ok Nexus",
+          "OK-Nexus",
+          "Oknexus",
+          "OkNexus™ by Orkynus Tech Private Limited"
+        ]
+      },
+      {
+        "ok": false,
+        "text": "Don't create new \"Ok\" names for features. Only shipped products get one."
+      }
+    ]
+  },
+  "downloads": {
+    "zip": "https://okynustech.github.io/media/brand/files/okynus-brand-kit-v1.0.zip",
+    "tokensCss": "https://okynustech.github.io/media/brand/files/tokens/okynus-tokens.css",
+    "tokensDtcg": "https://okynustech.github.io/media/brand/files/tokens/okynus-tokens.json"
+  }
+}
